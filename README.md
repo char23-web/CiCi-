@@ -11,6 +11,11 @@
 
 # Code with GitHub Copilot
 
+[![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/char23-web/CiCi-/blob/main/LICENSE)
+[![GitHub issues](https://img.shields.io/github/issues/char23-web/CiCi-)](https://github.com/char23-web/CiCi-/issues)
+[![GitHub stars](https://img.shields.io/github/stars/char23-web/CiCi-?style=social)](https://github.com/char23-web/CiCi-)
+[![GitHub forks](https://img.shields.io/github/forks/char23-web/CiCi-?style=social)](https://github.com/char23-web/CiCi-/network/members)
+
 _GitHub Copilot can help you code by offering autocomplete-style suggestions right in VS Code and Codespaces._
 
 </header>
