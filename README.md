@@ -15,6 +15,55 @@ _GitHub Copilot can help you code by offering autocomplete-style suggestions rig
 
 </header>
 
+## About
+
+This repository is a GitHub Skills course that teaches developers how to leverage GitHub Copilot for AI-powered code suggestions. Key features include:
+
+- **Interactive Learning**: Step-by-step course using GitHub Actions to track progress
+- **GitHub Codespaces Integration**: Practice Copilot in a cloud-based development environment
+- **Hands-on Examples**: Real coding exercises with JavaScript and development containers
+- **Automated Workflows**: GitHub Actions workflows guide learners through each step
+
+## Workflows
+
+This repository uses GitHub Actions workflows to automate the learning experience:
+
+- **Auto Assign (Step 0 - Welcome)**: Automatically triggers when creating a new repository from the template, updating from step 0 to step 1
+- **Copilot Extension Setup (Step 1)**: Validates devcontainer configuration and Copilot extension setup
+- **JavaScript Skills (Step 2)**: Checks for JavaScript function creation and validates code completion
+- **Copilot Hub (Step 3)**: Guides learners through advanced Copilot features
+- **Copilot Comments (Step 4)**: Teaches using Copilot with code comments
+
+## Technology Stack
+
+This course uses the following technologies:
+
+- **HTML5**: For web-based content and examples
+- **Primer CSS**: GitHub's design system for consistent styling
+- **http-server**: Local development server for testing
+- **GitHub Actions**: Workflow automation and course progression
+- **GitHub Codespaces**: Cloud-based development environment
+- **VS Code**: Primary code editor with Copilot integration
+
+## Contributing
+
+Contributions are welcome! If you'd like to improve this course:
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/improvement`)
+3. Make your changes
+4. Commit your changes (`git commit -m 'Add some improvement'`)
+5. Push to the branch (`git push origin feature/improvement`)
+6. Open a Pull Request
+
+Please ensure your contributions align with the course objectives and maintain the educational value for learners.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+Copyright (c) GitHub and others
+
 <!--
   <<< Author notes: Step 1 >>>
   Choose 3-5 steps for your course.
