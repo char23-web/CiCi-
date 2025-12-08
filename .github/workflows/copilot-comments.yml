@@ -1,0 +1,19 @@
+# Example workflow: Copilot Comments
+# This is a simple example workflow referenced in the README.
+# It runs on workflow_dispatch events.
+
+name: Copilot Comments
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  copilot-comments-placeholder:
+    name: Copilot Comments Placeholder
+    runs-on: ubuntu-latest
+    steps:
+      - name: Placeholder step
+        run: echo 'Copilot Comments placeholder'
