@@ -1,0 +1,19 @@
+# Example workflow: JavaScript Skills
+# This is a simple example workflow referenced in the README.
+# It runs on workflow_dispatch events.
+
+name: JavaScript Skills
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  javascript-skills-placeholder:
+    name: JavaScript Skills Placeholder
+    runs-on: ubuntu-latest
+    steps:
+      - name: Placeholder step
+        run: echo 'JavaScript skills placeholder'

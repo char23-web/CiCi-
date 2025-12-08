@@ -1,0 +1,20 @@
+# Example workflow: Auto Assign
+# This is a simple example workflow referenced in the README.
+# It runs on repository_dispatch or workflow_dispatch events.
+
+name: Auto Assign
+
+on:
+  repository_dispatch:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  auto-assign-placeholder:
+    name: Auto Assign Placeholder
+    runs-on: ubuntu-latest
+    steps:
+      - name: Placeholder step
+        run: echo 'Auto assign placeholder'
