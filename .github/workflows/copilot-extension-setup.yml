@@ -1,0 +1,19 @@
+# Example workflow: Copilot Extension Setup
+# This is a simple example workflow referenced in the README.
+# It runs on workflow_dispatch events.
+
+name: Copilot Extension Setup
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  copilot-extension-setup-placeholder:
+    name: Copilot Extension Setup Placeholder
+    runs-on: ubuntu-latest
+    steps:
+      - name: Placeholder step
+        run: echo 'Copilot extension setup placeholder'

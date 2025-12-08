@@ -1,0 +1,19 @@
+# Example workflow: Copilot Hub
+# This is a simple example workflow referenced in the README.
+# It runs on workflow_dispatch events.
+
+name: Copilot Hub
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  copilot-hub-placeholder:
+    name: Copilot Hub Placeholder
+    runs-on: ubuntu-latest
+    steps:
+      - name: Placeholder step
+        run: echo 'Copilot Hub placeholder'
