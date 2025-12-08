@@ -142,7 +142,7 @@ Before you open up a codespace on a repository, you can create a development con
 
 ### :keyboard: Activity
 
-1. Open the Copilot Hub in VS Code (use the Copilot icon in the sidebar or press `Ctrl+Shift+A` / `Cmd+Shift+A`).
+1. Open the Copilot panel in VS Code (click the Copilot icon in the Activity Bar on the left sidebar).
 
 2. Start typing a comment describing what you want to code (e.g., `// function to calculate fibonacci sequence`).
 
